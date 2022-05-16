@@ -16,11 +16,11 @@ class Isaac:
         self.model = Model(model_name)
         self.path_data = path_data
         self.intents = self.load_intents()
-        Model.compute_performance(self.intents)
         self.model.encode(self.intents)
         self.dm = DialogueManager(
             model=self.model, intents=self.intents, name='base')
 
+        
         self.save_intents()
 
     def load_intents(self):
@@ -107,3 +107,4 @@ class Isaac:
         file_data = json.dumps(j_file_encoded)
         f = open(f"{self.path_data}intents_encodings.json", "w")
         f.write(file_data)
+        print('Intents saved.')

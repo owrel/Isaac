@@ -116,3 +116,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+data/intents_encodings.json
+
+model_evaluation/

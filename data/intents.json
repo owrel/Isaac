@@ -1,101 +1,103 @@
 {
-	"CreatingIntents": {
-		"examples": [
-			"I would like to create a new intent",
-			"Ok let's create a new intent",
-			"I would like to build a new intent please"
-		],
-		"previous_encoder": "all-MiniLM-L6-v2"
-	},
-	"Confirm": {
-		"examples": [
-			"Yes",
-			"Go for that",
-			"Good",
-			"Agree",
-			"Yeah",
-			"Seems good",
-			"Ok",
-			"yes please"
-		],
-		"previous_encoder": "all-MiniLM-L6-v2"
-	},
-	"Decline": {
-		"examples": [
-			"No",
-			"Don't do that"
-		],
-		"previous_encoder": "all-MiniLM-L6-v2"
-	},
-	"Quit": {
-		"examples": [
-			"Quit that",
-			"Quit",
-			"Leave"
-		],
-		"previous_encoder": "all-MiniLM-L6-v2"
-	},
-	"Goodbye": {
-		"examples": [
-			"See ya",
-			"See you later",
-			"Goodbye",
-			"I'll see you later"
-		],
-		"previous_encoder": "all-MiniLM-L6-v2"
-	},
-	"ListIntent": {
-		"examples": [
-			"List the intents",
-			"Show me my intents",
-			"Can you show me my intents ?"
-		],
-		"previous_encoder": "all-MiniLM-L6-v2"
-	},
-	"ReloadWorker": {
-		"examples": [
-			"Reload all the workers",
-			"Reload workers",
-			"Reload the worker"
-		],
-		"previous_encoder": "all-MiniLM-L6-v2"
-	},
-	"PreviousSimilarity": {
-		"examples": [
-			"Show me the previous computed similarities",
-			"Previous similarity",
-			"Show me the previous similarities"
-		],
-		"previous_encoder": "all-MiniLM-L6-v2"
-	},
-	"ReloadIntents": {
-		"examples": [
-			"Can you reaload the intents please ?",
-			"Reaload intents",
-			"Reload intents",
-			"Reload intent"
-		],
-		"previous_encoder": "all-MiniLM-L6-v2"
-	},
-	"GetExamplesFromIntent": {
-		"examples": [
-			"Show me the examples for intent",
-			"Get the exemples from an intent"
-		],
-		"previous_encoder": "all-MiniLM-L6-v2"
-	},
-	"Rewoke": {
-		"examples" :[
-			"Cancel please",
-			"Cancel"
-		]
-	},
-	"WrongIntent": {
-		"examples" :[
-			"Nope, that is not what i intended to do",
-			"Wrong intent",
-			"That is the wrong intent",
-			"Not what i want"
-		]
-	}
+  "CreatingIntents": {
+    "examples": [
+      "I would like to create a new intent",
+      "Ok let's create a new intent",
+      "I would like to build a new intent please"
+    ],
+    "previous_encoder": "albert"
+  },
+  "Confirm": {
+    "examples": [
+      "Yes",
+      "Go for that",
+      "Good",
+      "Agree",
+      "Yeah",
+      "Seems good",
+      "Ok",
+      "yes please"
+    ],
+    "previous_encoder": "albert"
+  },
+  "Decline": {
+    "examples": [
+      "No",
+      "Don't do that"
+    ],
+    "previous_encoder": "albert"
+  },
+  "Quit": {
+    "examples": [
+      "Quit that",
+      "Quit",
+      "Leave"
+    ],
+    "previous_encoder": "albert"
+  },
+  "Goodbye": {
+    "examples": [
+      "See ya",
+      "See you later",
+      "Goodbye",
+      "I'll see you later"
+    ],
+    "previous_encoder": "albert"
+  },
+  "ListIntent": {
+    "examples": [
+      "List the intents",
+      "Show me my intents",
+      "Can you show me my intents ?"
+    ],
+    "previous_encoder": "albert"
+  },
+  "ReloadWorker": {
+    "examples": [
+      "Reload all the workers",
+      "Reload workers",
+      "Reload the worker"
+    ],
+    "previous_encoder": "albert"
+  },
+  "PreviousSimilarity": {
+    "examples": [
+      "Show me the previous computed similarities",
+      "Previous similarity",
+      "Show me the previous similarities"
+    ],
+    "previous_encoder": "albert"
+  },
+  "ReloadIntents": {
+    "examples": [
+      "Can you reaload the intents please ?",
+      "Reaload intents",
+      "Reload intents",
+      "Reload intent"
+    ],
+    "previous_encoder": "albert"
+  },
+  "GetExamplesFromIntent": {
+    "examples": [
+      "Show me the examples for intent",
+      "Get the exemples from an intent"
+    ],
+    "previous_encoder": "albert"
+  },
+  "Rewoke": {
+    "examples": [
+      "Cancel please",
+      "Cancel"
+    ],
+    "previous_encoder": "albert"
+  },
+  "WrongIntent": {
+    "examples": [
+      "Nope, that is not what i intended to do",
+      "Wrong intent",
+      "That is the wrong intent",
+      "Not what i want"
+    ],
+    "previous_encoder": "albert"
+  }
 }

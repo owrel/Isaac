@@ -5,7 +5,7 @@
 
 from isaac import Isaac
 
-Isaac('minilm')
+Isaac('albert')
 
 # import cmd
 
