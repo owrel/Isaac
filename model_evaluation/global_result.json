@@ -1,0 +1,50 @@
+{
+  "minilm": {
+    "sum_time": 39.93525719642639,
+    "mean_time": 0.3246768877758243,
+    "nb_succes": 120,
+    "nb_fail": 3
+  },
+  "mpnet": {
+    "sum_time": 78.34179782867432,
+    "mean_time": 0.6369251855989781,
+    "nb_succes": 121,
+    "nb_fail": 2
+  },
+  "qa-mpnet-dot": {
+    "sum_time": 72.6750648021698,
+    "mean_time": 0.5908541853834943,
+    "nb_succes": 119,
+    "nb_fail": 4
+  },
+  "qa-mpnet-cos": {
+    "sum_time": 78.88650012016296,
+    "mean_time": 0.6413536595135201,
+    "nb_succes": 117,
+    "nb_fail": 6
+  },
+  "roberta": {
+    "sum_time": 42.31411361694336,
+    "mean_time": 0.3440171838775883,
+    "nb_succes": 121,
+    "nb_fail": 2
+  },
+  "msmacro": {
+    "sum_time": 43.432324171066284,
+    "mean_time": 0.35310832659403485,
+    "nb_succes": 120,
+    "nb_fail": 3
+  },
+  "tinybert": {
+    "sum_time": 40.629947662353516,
+    "mean_time": 0.3303247777427115,
+    "nb_succes": 123,
+    "nb_fail": 0
+  },
+  "albert": {
+    "sum_time": 37.70493793487549,
+    "mean_time": 0.30654421085264627,
+    "nb_succes": 123,
+    "nb_fail": 0
+  }
+}

@@ -1,0 +1,1077 @@
+{
+  "minilm": {
+    "name": "all-MiniLM-L12-v1"
+  },
+  "CreatingIntents": {
+    "examples_results": [
+      {
+        "example": "I would like to create a new intent",
+        "mean": {
+          "time": 0.39296388626098633,
+          "awaited": "CreatingIntents",
+          "obtained": "CreatingIntents",
+          "confidence": 0.9322381814320883,
+          "success": true
+        },
+        "max": {
+          "time": 0.3538801670074463,
+          "awaited": "CreatingIntents",
+          "obtained": "CreatingIntents",
+          "confidence": 0.9999998807907104,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.3243215084075928,
+          "awaited": "CreatingIntents",
+          "obtained": "CreatingIntents",
+          "confidence": 0.9661190311113994,
+          "success": true
+        }
+      },
+      {
+        "example": "Ok let's create a new intent",
+        "mean": {
+          "time": 0.36490440368652344,
+          "awaited": "CreatingIntents",
+          "obtained": "CreatingIntents",
+          "confidence": 0.9187384843826294,
+          "success": true
+        },
+        "max": {
+          "time": 0.5542278289794922,
+          "awaited": "CreatingIntents",
+          "obtained": "CreatingIntents",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.45678138732910156,
+          "awaited": "CreatingIntents",
+          "obtained": "CreatingIntents",
+          "confidence": 0.9593692421913147,
+          "success": true
+        }
+      },
+      {
+        "example": "I would like to build a new intent please",
+        "mean": {
+          "time": 0.44551587104797363,
+          "awaited": "CreatingIntents",
+          "obtained": "CreatingIntents",
+          "confidence": 0.9329920013745626,
+          "success": true
+        },
+        "max": {
+          "time": 0.2922980785369873,
+          "awaited": "CreatingIntents",
+          "obtained": "CreatingIntents",
+          "confidence": 0.9999998211860657,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.34510374069213867,
+          "awaited": "CreatingIntents",
+          "obtained": "CreatingIntents",
+          "confidence": 0.9664959112803142,
+          "success": true
+        }
+      }
+    ],
+    "mean": 3,
+    "max": 3,
+    "meanmax": 3
+  },
+  "Confirm": {
+    "examples_results": [
+      {
+        "example": "Yes",
+        "mean": {
+          "time": 0.3128814697265625,
+          "awaited": "Confirm",
+          "obtained": "Decline",
+          "confidence": 0.46763890236616135,
+          "success": false
+        },
+        "max": {
+          "time": 0.29122138023376465,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.2906913757324219,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 0.7327040927484632,
+          "success": true
+        }
+      },
+      {
+        "example": "Go for that",
+        "mean": {
+          "time": 0.3023974895477295,
+          "awaited": "Confirm",
+          "obtained": "Decline",
+          "confidence": 0.3607054501771927,
+          "success": false
+        },
+        "max": {
+          "time": 0.30309009552001953,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 1.0000001192092896,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.5386321544647217,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 0.6615714230574667,
+          "success": true
+        }
+      },
+      {
+        "example": "Good",
+        "mean": {
+          "time": 0.517399787902832,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 0.4252014122903347,
+          "success": true
+        },
+        "max": {
+          "time": 0.4620237350463867,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.4701805114746094,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 0.7126007061451674,
+          "success": true
+        }
+      },
+      {
+        "example": "Agree",
+        "mean": {
+          "time": 0.4650533199310303,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 0.31276374496519566,
+          "success": true
+        },
+        "max": {
+          "time": 0.3787674903869629,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.3647139072418213,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 0.6563818724825978,
+          "success": true
+        }
+      },
+      {
+        "example": "Yeah",
+        "mean": {
+          "time": 0.37961697578430176,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 0.4501409437507391,
+          "success": true
+        },
+        "max": {
+          "time": 0.40731167793273926,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 0.9999999403953552,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.3370192050933838,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 0.7250704420730472,
+          "success": true
+        }
+      },
+      {
+        "example": "Seems good",
+        "mean": {
+          "time": 0.2908496856689453,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 0.3783453069627285,
+          "success": true
+        },
+        "max": {
+          "time": 0.29191112518310547,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.2936549186706543,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 0.6891726534813643,
+          "success": true
+        }
+      },
+      {
+        "example": "Ok",
+        "mean": {
+          "time": 0.2920057773590088,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 0.44614190235733986,
+          "success": true
+        },
+        "max": {
+          "time": 0.3027820587158203,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 1.0000001192092896,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.2825021743774414,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 0.7230710107833147,
+          "success": true
+        }
+      },
+      {
+        "example": "yes please",
+        "mean": {
+          "time": 0.3082575798034668,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 0.40686715953052044,
+          "success": true
+        },
+        "max": {
+          "time": 0.3322939872741699,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.3293955326080322,
+          "awaited": "Confirm",
+          "obtained": "Confirm",
+          "confidence": 0.7034335797652602,
+          "success": true
+        }
+      }
+    ],
+    "mean": 6,
+    "max": 8,
+    "meanmax": 8
+  },
+  "Decline": {
+    "examples_results": [
+      {
+        "example": "No",
+        "mean": {
+          "time": 0.3001992702484131,
+          "awaited": "Decline",
+          "obtained": "Decline",
+          "confidence": 0.5944489911198616,
+          "success": true
+        },
+        "max": {
+          "time": 0.2981586456298828,
+          "awaited": "Decline",
+          "obtained": "Decline",
+          "confidence": 1.0000001192092896,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.28064608573913574,
+          "awaited": "Decline",
+          "obtained": "Decline",
+          "confidence": 0.7972245551645756,
+          "success": true
+        }
+      },
+      {
+        "example": "Don't do that",
+        "mean": {
+          "time": 0.32473230361938477,
+          "awaited": "Decline",
+          "obtained": "Decline",
+          "confidence": 0.5944489985704422,
+          "success": true
+        },
+        "max": {
+          "time": 0.3261585235595703,
+          "awaited": "Decline",
+          "obtained": "Decline",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.3239479064941406,
+          "awaited": "Decline",
+          "obtained": "Decline",
+          "confidence": 0.7972244992852211,
+          "success": true
+        }
+      }
+    ],
+    "mean": 2,
+    "max": 2,
+    "meanmax": 2
+  },
+  "Quit": {
+    "examples_results": [
+      {
+        "example": "Quit that",
+        "mean": {
+          "time": 0.30082178115844727,
+          "awaited": "Quit",
+          "obtained": "Quit",
+          "confidence": 0.6615346074104309,
+          "success": true
+        },
+        "max": {
+          "time": 0.29669642448425293,
+          "awaited": "Quit",
+          "obtained": "Quit",
+          "confidence": 1.0000001192092896,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.2868387699127197,
+          "awaited": "Quit",
+          "obtained": "Quit",
+          "confidence": 0.8307673633098602,
+          "success": true
+        }
+      },
+      {
+        "example": "Quit",
+        "mean": {
+          "time": 0.2929990291595459,
+          "awaited": "Quit",
+          "obtained": "Quit",
+          "confidence": 0.7462329069773356,
+          "success": true
+        },
+        "max": {
+          "time": 0.2868177890777588,
+          "awaited": "Quit",
+          "obtained": "Quit",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.2931344509124756,
+          "awaited": "Quit",
+          "obtained": "Quit",
+          "confidence": 0.8731164534886677,
+          "success": true
+        }
+      },
+      {
+        "example": "Leave",
+        "mean": {
+          "time": 0.2898440361022949,
+          "awaited": "Quit",
+          "obtained": "Quit",
+          "confidence": 0.6870479583740234,
+          "success": true
+        },
+        "max": {
+          "time": 0.28856968879699707,
+          "awaited": "Quit",
+          "obtained": "Quit",
+          "confidence": 1.0000001192092896,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.2873697280883789,
+          "awaited": "Quit",
+          "obtained": "Quit",
+          "confidence": 0.8435240387916565,
+          "success": true
+        }
+      }
+    ],
+    "mean": 3,
+    "max": 3,
+    "meanmax": 3
+  },
+  "Goodbye": {
+    "examples_results": [
+      {
+        "example": "See ya",
+        "mean": {
+          "time": 0.2878000736236572,
+          "awaited": "Goodbye",
+          "obtained": "Goodbye",
+          "confidence": 0.7206581681966782,
+          "success": true
+        },
+        "max": {
+          "time": 0.2953810691833496,
+          "awaited": "Goodbye",
+          "obtained": "Goodbye",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.2899801731109619,
+          "awaited": "Goodbye",
+          "obtained": "Goodbye",
+          "confidence": 0.8603290840983391,
+          "success": true
+        }
+      },
+      {
+        "example": "See you later",
+        "mean": {
+          "time": 0.29262757301330566,
+          "awaited": "Goodbye",
+          "obtained": "Goodbye",
+          "confidence": 0.7639825195074081,
+          "success": true
+        },
+        "max": {
+          "time": 0.29717087745666504,
+          "awaited": "Goodbye",
+          "obtained": "Goodbye",
+          "confidence": 1.0000001192092896,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.297809362411499,
+          "awaited": "Goodbye",
+          "obtained": "Goodbye",
+          "confidence": 0.8819913193583488,
+          "success": true
+        }
+      },
+      {
+        "example": "Goodbye",
+        "mean": {
+          "time": 0.28882265090942383,
+          "awaited": "Goodbye",
+          "obtained": "Goodbye",
+          "confidence": 0.5881421118974686,
+          "success": true
+        },
+        "max": {
+          "time": 0.29384279251098633,
+          "awaited": "Goodbye",
+          "obtained": "Goodbye",
+          "confidence": 0.9999999403953552,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.28259825706481934,
+          "awaited": "Goodbye",
+          "obtained": "Goodbye",
+          "confidence": 0.7940710261464119,
+          "success": true
+        }
+      },
+      {
+        "example": "I'll see you later",
+        "mean": {
+          "time": 0.3124842643737793,
+          "awaited": "Goodbye",
+          "obtained": "Goodbye",
+          "confidence": 0.7262362763285637,
+          "success": true
+        },
+        "max": {
+          "time": 0.29495692253112793,
+          "awaited": "Goodbye",
+          "obtained": "Goodbye",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.3044137954711914,
+          "awaited": "Goodbye",
+          "obtained": "Goodbye",
+          "confidence": 0.8631181381642818,
+          "success": true
+        }
+      }
+    ],
+    "mean": 4,
+    "max": 4,
+    "meanmax": 4
+  },
+  "ListIntent": {
+    "examples_results": [
+      {
+        "example": "List the intents",
+        "mean": {
+          "time": 0.299774169921875,
+          "awaited": "ListIntent",
+          "obtained": "ListIntent",
+          "confidence": 0.7559356888135275,
+          "success": true
+        },
+        "max": {
+          "time": 0.2978062629699707,
+          "awaited": "ListIntent",
+          "obtained": "ListIntent",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.29864072799682617,
+          "awaited": "ListIntent",
+          "obtained": "ListIntent",
+          "confidence": 0.8779678444067638,
+          "success": true
+        }
+      },
+      {
+        "example": "Show me my intents",
+        "mean": {
+          "time": 0.2991023063659668,
+          "awaited": "ListIntent",
+          "obtained": "ListIntent",
+          "confidence": 0.8504727284113566,
+          "success": true
+        },
+        "max": {
+          "time": 0.299774169921875,
+          "awaited": "ListIntent",
+          "obtained": "ListIntent",
+          "confidence": 1.000000238418579,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.4171943664550781,
+          "awaited": "ListIntent",
+          "obtained": "ListIntent",
+          "confidence": 0.9252364834149678,
+          "success": true
+        }
+      },
+      {
+        "example": "Can you show me my intents ?",
+        "mean": {
+          "time": 0.310821533203125,
+          "awaited": "ListIntent",
+          "obtained": "ListIntent",
+          "confidence": 0.8417927424112955,
+          "success": true
+        },
+        "max": {
+          "time": 0.3891918659210205,
+          "awaited": "ListIntent",
+          "obtained": "ListIntent",
+          "confidence": 1.000000238418579,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.32211780548095703,
+          "awaited": "ListIntent",
+          "obtained": "ListIntent",
+          "confidence": 0.9208964904149373,
+          "success": true
+        }
+      }
+    ],
+    "mean": 3,
+    "max": 3,
+    "meanmax": 3
+  },
+  "ReloadWorker": {
+    "examples_results": [
+      {
+        "example": "Reload all the workers",
+        "mean": {
+          "time": 0.3133845329284668,
+          "awaited": "ReloadWorker",
+          "obtained": "ReloadWorker",
+          "confidence": 0.93178258339564,
+          "success": true
+        },
+        "max": {
+          "time": 0.36931514739990234,
+          "awaited": "ReloadWorker",
+          "obtained": "ReloadWorker",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.30399060249328613,
+          "awaited": "ReloadWorker",
+          "obtained": "ReloadWorker",
+          "confidence": 0.96589129169782,
+          "success": true
+        }
+      },
+      {
+        "example": "Reload workers",
+        "mean": {
+          "time": 0.31064367294311523,
+          "awaited": "ReloadWorker",
+          "obtained": "ReloadWorker",
+          "confidence": 0.9439926346143087,
+          "success": true
+        },
+        "max": {
+          "time": 0.3030409812927246,
+          "awaited": "ReloadWorker",
+          "obtained": "ReloadWorker",
+          "confidence": 0.9999998807907104,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.3137340545654297,
+          "awaited": "ReloadWorker",
+          "obtained": "ReloadWorker",
+          "confidence": 0.9719962577025096,
+          "success": true
+        }
+      },
+      {
+        "example": "Reload the worker",
+        "mean": {
+          "time": 0.29743456840515137,
+          "awaited": "ReloadWorker",
+          "obtained": "ReloadWorker",
+          "confidence": 0.9158134857813517,
+          "success": true
+        },
+        "max": {
+          "time": 0.3035919666290283,
+          "awaited": "ReloadWorker",
+          "obtained": "ReloadWorker",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.2961900234222412,
+          "awaited": "ReloadWorker",
+          "obtained": "ReloadWorker",
+          "confidence": 0.9579067428906758,
+          "success": true
+        }
+      }
+    ],
+    "mean": 3,
+    "max": 3,
+    "meanmax": 3
+  },
+  "PreviousSimilarity": {
+    "examples_results": [
+      {
+        "example": "Show me the previous computed similarities",
+        "mean": {
+          "time": 0.3037123680114746,
+          "awaited": "PreviousSimilarity",
+          "obtained": "PreviousSimilarity",
+          "confidence": 0.8123724261919657,
+          "success": true
+        },
+        "max": {
+          "time": 0.3017730712890625,
+          "awaited": "PreviousSimilarity",
+          "obtained": "PreviousSimilarity",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.3002471923828125,
+          "awaited": "PreviousSimilarity",
+          "obtained": "PreviousSimilarity",
+          "confidence": 0.9061862130959828,
+          "success": true
+        }
+      },
+      {
+        "example": "Previous similarity",
+        "mean": {
+          "time": 0.2902188301086426,
+          "awaited": "PreviousSimilarity",
+          "obtained": "PreviousSimilarity",
+          "confidence": 0.7765789031982422,
+          "success": true
+        },
+        "max": {
+          "time": 0.28819823265075684,
+          "awaited": "PreviousSimilarity",
+          "obtained": "PreviousSimilarity",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.29206132888793945,
+          "awaited": "PreviousSimilarity",
+          "obtained": "PreviousSimilarity",
+          "confidence": 0.8882894515991211,
+          "success": true
+        }
+      },
+      {
+        "example": "Show me the previous similarities",
+        "mean": {
+          "time": 0.31061720848083496,
+          "awaited": "PreviousSimilarity",
+          "obtained": "PreviousSimilarity",
+          "confidence": 0.8212819298108419,
+          "success": true
+        },
+        "max": {
+          "time": 0.2984318733215332,
+          "awaited": "PreviousSimilarity",
+          "obtained": "PreviousSimilarity",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.30609869956970215,
+          "awaited": "PreviousSimilarity",
+          "obtained": "PreviousSimilarity",
+          "confidence": 0.910640964905421,
+          "success": true
+        }
+      }
+    ],
+    "mean": 3,
+    "max": 3,
+    "meanmax": 3
+  },
+  "ReloadIntents": {
+    "examples_results": [
+      {
+        "example": "Can you reaload the intents please ?",
+        "mean": {
+          "time": 0.2943909168243408,
+          "awaited": "ReloadIntents",
+          "obtained": "ListIntent",
+          "confidence": 0.7155916889508566,
+          "success": false
+        },
+        "max": {
+          "time": 0.2978670597076416,
+          "awaited": "ReloadIntents",
+          "obtained": "ReloadIntents",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.2943532466888428,
+          "awaited": "ReloadIntents",
+          "obtained": "ReloadIntents",
+          "confidence": 0.8346862122416496,
+          "success": true
+        }
+      },
+      {
+        "example": "Reaload intents",
+        "mean": {
+          "time": 0.30167269706726074,
+          "awaited": "ReloadIntents",
+          "obtained": "ReloadIntents",
+          "confidence": 0.6996772214770317,
+          "success": true
+        },
+        "max": {
+          "time": 0.30206894874572754,
+          "awaited": "ReloadIntents",
+          "obtained": "ReloadIntents",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.3034358024597168,
+          "awaited": "ReloadIntents",
+          "obtained": "ReloadIntents",
+          "confidence": 0.8498386107385159,
+          "success": true
+        }
+      },
+      {
+        "example": "Reload intents",
+        "mean": {
+          "time": 0.29707908630371094,
+          "awaited": "ReloadIntents",
+          "obtained": "ReloadIntents",
+          "confidence": 0.7342651933431625,
+          "success": true
+        },
+        "max": {
+          "time": 0.3033897876739502,
+          "awaited": "ReloadIntents",
+          "obtained": "ReloadIntents",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.2935948371887207,
+          "awaited": "ReloadIntents",
+          "obtained": "ReloadIntents",
+          "confidence": 0.8671325966715813,
+          "success": true
+        }
+      },
+      {
+        "example": "Reload intent",
+        "mean": {
+          "time": 0.30263662338256836,
+          "awaited": "ReloadIntents",
+          "obtained": "ReloadIntents",
+          "confidence": 0.729171983897686,
+          "success": true
+        },
+        "max": {
+          "time": 0.29155468940734863,
+          "awaited": "ReloadIntents",
+          "obtained": "ReloadIntents",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.29816555976867676,
+          "awaited": "ReloadIntents",
+          "obtained": "ReloadIntents",
+          "confidence": 0.864585991948843,
+          "success": true
+        }
+      }
+    ],
+    "mean": 3,
+    "max": 4,
+    "meanmax": 4
+  },
+  "GetExamplesFromIntent": {
+    "examples_results": [
+      {
+        "example": "Show me the examples for intent",
+        "mean": {
+          "time": 0.2991008758544922,
+          "awaited": "GetExamplesFromIntent",
+          "obtained": "GetExamplesFromIntent",
+          "confidence": 0.7874388694763184,
+          "success": true
+        },
+        "max": {
+          "time": 0.31177186965942383,
+          "awaited": "GetExamplesFromIntent",
+          "obtained": "GetExamplesFromIntent",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.3105025291442871,
+          "awaited": "GetExamplesFromIntent",
+          "obtained": "GetExamplesFromIntent",
+          "confidence": 0.8937194347381592,
+          "success": true
+        }
+      },
+      {
+        "example": "Get the exemples from an intent",
+        "mean": {
+          "time": 0.30610132217407227,
+          "awaited": "GetExamplesFromIntent",
+          "obtained": "GetExamplesFromIntent",
+          "confidence": 0.7874388098716736,
+          "success": true
+        },
+        "max": {
+          "time": 0.3177487850189209,
+          "awaited": "GetExamplesFromIntent",
+          "obtained": "GetExamplesFromIntent",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.3139526844024658,
+          "awaited": "GetExamplesFromIntent",
+          "obtained": "GetExamplesFromIntent",
+          "confidence": 0.8937194049358368,
+          "success": true
+        }
+      }
+    ],
+    "mean": 2,
+    "max": 2,
+    "meanmax": 2
+  },
+  "Rewoke": {
+    "examples_results": [
+      {
+        "example": "Cancel please",
+        "mean": {
+          "time": 0.29015445709228516,
+          "awaited": "Rewoke",
+          "obtained": "Rewoke",
+          "confidence": 0.9332833290100098,
+          "success": true
+        },
+        "max": {
+          "time": 0.2963714599609375,
+          "awaited": "Rewoke",
+          "obtained": "Rewoke",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.29955434799194336,
+          "awaited": "Rewoke",
+          "obtained": "Rewoke",
+          "confidence": 0.9666416645050049,
+          "success": true
+        }
+      },
+      {
+        "example": "Cancel",
+        "mean": {
+          "time": 0.2866096496582031,
+          "awaited": "Rewoke",
+          "obtained": "Rewoke",
+          "confidence": 0.9332833886146545,
+          "success": true
+        },
+        "max": {
+          "time": 0.29112815856933594,
+          "awaited": "Rewoke",
+          "obtained": "Rewoke",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.2886316776275635,
+          "awaited": "Rewoke",
+          "obtained": "Rewoke",
+          "confidence": 0.9666416943073273,
+          "success": true
+        }
+      }
+    ],
+    "mean": 2,
+    "max": 2,
+    "meanmax": 2
+  },
+  "WrongIntent": {
+    "examples_results": [
+      {
+        "example": "Nope, that is not what i intended to do",
+        "mean": {
+          "time": 0.29755520820617676,
+          "awaited": "WrongIntent",
+          "obtained": "WrongIntent",
+          "confidence": 0.5330710485577583,
+          "success": true
+        },
+        "max": {
+          "time": 0.3025667667388916,
+          "awaited": "WrongIntent",
+          "obtained": "WrongIntent",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.29738950729370117,
+          "awaited": "WrongIntent",
+          "obtained": "WrongIntent",
+          "confidence": 0.7665355242788792,
+          "success": true
+        }
+      },
+      {
+        "example": "Wrong intent",
+        "mean": {
+          "time": 0.2987072467803955,
+          "awaited": "WrongIntent",
+          "obtained": "WrongIntent",
+          "confidence": 0.6203657500445843,
+          "success": true
+        },
+        "max": {
+          "time": 0.28650951385498047,
+          "awaited": "WrongIntent",
+          "obtained": "WrongIntent",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.3521389961242676,
+          "awaited": "WrongIntent",
+          "obtained": "WrongIntent",
+          "confidence": 0.8101828750222921,
+          "success": true
+        }
+      },
+      {
+        "example": "That is the wrong intent",
+        "mean": {
+          "time": 0.41218018531799316,
+          "awaited": "WrongIntent",
+          "obtained": "WrongIntent",
+          "confidence": 0.6462463587522507,
+          "success": true
+        },
+        "max": {
+          "time": 0.4695308208465576,
+          "awaited": "WrongIntent",
+          "obtained": "WrongIntent",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.4505894184112549,
+          "awaited": "WrongIntent",
+          "obtained": "WrongIntent",
+          "confidence": 0.8231231793761253,
+          "success": true
+        }
+      },
+      {
+        "example": "Not what i want",
+        "mean": {
+          "time": 0.449739933013916,
+          "awaited": "WrongIntent",
+          "obtained": "WrongIntent",
+          "confidence": 0.43670497834682465,
+          "success": true
+        },
+        "max": {
+          "time": 0.3110482692718506,
+          "awaited": "WrongIntent",
+          "obtained": "WrongIntent",
+          "confidence": 1.0,
+          "success": true
+        },
+        "meanmax": {
+          "time": 0.28888416290283203,
+          "awaited": "WrongIntent",
+          "obtained": "WrongIntent",
+          "confidence": 0.7183524891734123,
+          "success": true
+        }
+      }
+    ],
+    "mean": 4,
+    "max": 4,
+    "meanmax": 4
+  },
+  "sum_time": 39.93525719642639,
+  "mean_time": 0.3246768877758243,
+  "nb_fail": 3,
+  "nb_success": 120
+}
