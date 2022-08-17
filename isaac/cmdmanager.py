@@ -55,10 +55,8 @@ class CmdManager(cmd.Cmd):
         self.prompt =  f'{self.prefix}'
 
     def default(self, line):
-        if line == 'EOF':
-            raise KeyboardInterrupt
         self.callback(line)
-
+        # self.stdout.write(f'{self.callback(line)}\n')
 
     def emptyline(self):
         self.stdout.write("\033[K")
